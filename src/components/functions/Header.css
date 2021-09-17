@@ -1,0 +1,24 @@
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 1800px;
+  margin-top: 40px;
+}
+
+.filter {
+  display: grid;
+  position: relative;
+  justify-items: end;
+}
+
+.search-box {
+  display: grid;
+  position: relative;
+}
+
+.search-box::before {
+  content: url("../../images/loop.png");
+  position: absolute;
+  left: 500px;
+  top: 28px;
+}
